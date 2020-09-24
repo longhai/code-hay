@@ -132,10 +132,10 @@ function drawYearInfo(clockInfo) {
 	textSize(int(clockInfo.radius * 0.1));
 	fill('LimeGreen');
 	text(
-		'Code là Ghiền',
-		-textWidth('Code là Ghiền') / 2,
+		'Analog Clock',
+		-textWidth('Analog Clock') / 2,
 		-clockInfo.radius * 0.35
 	);
 	textSize(int(clockInfo.radius * 0.05));
-	text('Huy Nguyễn', -textWidth('Huy Nguyễn') / 2, -clockInfo.radius * 0.25);
+	text('HAI', -textWidth('HAI') / 2, -clockInfo.radius * 0.25);
 }
